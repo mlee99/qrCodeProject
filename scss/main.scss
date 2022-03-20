@@ -1,0 +1,50 @@
+@import './resets';
+@import './variables';
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
+@function font($font-style) {
+    @return map-get($font-Family, $font-style);
+}
+
+body {
+    background: $lightGray;
+    margin: 100px auto;
+    font-family: font(Outfit);
+}
+
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    background-color: $white;
+    border-radius: 5%;
+    padding: 20px 10px;
+}
+
+.main-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+
+.main-text h3 {
+    color: $darkBlue;
+    font-size: 24px;
+    font-weight: weight(bold);
+}
+
+.main-text p {
+    font-size: 15px;
+    font-weight: weight(regular);
+    color: $grayishBlue;
+}
+
+.container img {
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+}
