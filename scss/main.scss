@@ -1,13 +1,7 @@
 @import './resets';
+@import  './functions';
+@import './mixins';
 @import './variables';
-
-@function weight($weight-name) {
-    @return map-get($font-weights, $weight-name);
-}
-
-@function font($font-style) {
-    @return map-get($font-Family, $font-style);
-}
 
 body {
     background: $lightGray;
@@ -16,35 +10,43 @@ body {
 }
 
 .container {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    @include centerPage;
     width: 20em;
     background-color: $white;
-    border-radius: 5%;
-    padding: 20px 10px;
+    border-radius: 4%;
+    padding: 12px 10px;
 }
 
 .main-text {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em;
+    @include centerPage;
+    width: 18em;
 }
 
 .main-text h3 {
     color: $darkBlue;
     font-size: 24px;
     font-weight: weight(bold);
+    padding: 15px 0;
 }
 
 .main-text p {
-    font-size: 15px;
+    @include centerPage;
+    font-size: 16.5px;
     font-weight: weight(regular);
     color: $grayishBlue;
+    width: 16em;
+    padding-bottom: 15px;
 }
 
 .container img {
-    border-radius: 5%;
+    border-radius: 4%;
     width: 300px;
     height: 300px;
+}
+
+.credits {
+    @include centerPage;
+    padding: 25px;
+    font-size: 8px;
+    font-size: 1vw;
 }
