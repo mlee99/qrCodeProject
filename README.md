@@ -70,8 +70,11 @@ While this code isn't particularly the most impressive, I learned how to use mix
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Moving forward, this is what I'll consider as one of my "first" projects (at least with Front-end Mentor). I do have some website projects on CodePen following FreeCodeCamps curriculum. However, I believe while I was able to construct the websites from scratch, the majority of it was copying the sample/templates. I still struggled with them, but I feel as if I'm able to learn a lot more from this other projects with a "here's a final design, do it."
 
+Ideally, I'd like to make about 10-15 more newbie projects so build my confidence with HTML, CSS, and JS and then move into larger projects (lines 200-500).
+
+So, that being said, I am 1/15 for newbie projects!!
 
 ### Useful resources
 
